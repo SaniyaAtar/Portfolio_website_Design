@@ -1,0 +1,152 @@
+.BG img
+{
+    margin-top: 0%;
+    height: 650px;
+    
+}
+.BG1{
+    display: none;
+}
+.img{
+    border-radius: 80%;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    align-items: center;
+}
+.new
+{
+    position: relative; margin-top: -12%;   
+}
+
+footer{
+    width: 100%; background-color: black; text-align: center; padding: 25px;
+}
+
+.title{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 8%;
+    margin-left: 32%;
+    color: rgb(237, 208, 208);
+}
+
+.title1 p{
+    margin-top: 0px;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(55, 19, 184);
+    font-display:inherit;
+}
+
+.thesis{
+    padding-bottom: 50px;
+    margin-top: -5%;
+    margin-left: 11.5%;
+    color: rgb(40, 60, 235);
+    display:block;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.thesis1{
+    padding-bottom: 50px;
+    margin-top: -6%;
+    margin-left: 10.5%;
+    color: rgb(25, 16, 131);
+    display:block;
+    font-size: 25px;
+
+}
+
+.thesis2{
+    padding-bottom: 50px;
+    margin-top: -6%;
+    margin-left: 11.5%;
+    color: aliceblue;
+    display:block;
+    font-size: 25px;
+}
+
+
+
+@media (max-width:1000px) {
+    body {
+        background-image: url(image/bg6.jpg);
+        border-radius: 60%;
+        background-size: auto; 
+        background-position: center;       
+    }
+   
+    .row{
+        margin-left: 90%;
+    }
+
+    .BG1{
+        display: none;
+    }
+
+    .row{
+        margin-right: 20%;
+    }
+
+    .new
+    {
+        position: relative; 
+        margin-top: 70%;
+        margin-left: 0%;  
+    }
+
+    footer{
+        width: 100%; background-color: rgb(24, 23, 23); text-align: center; padding: 10px;
+    }
+    .title{
+        position: absolute;
+        font-size: 30px;
+        margin-top: 25%;
+        margin-left: 8%;
+        text-align: center;
+        color: white;
+    }
+    .title1 p{
+        display: block;
+        font-size: 40px;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    div{
+        align-items: center;
+        align-content: center;
+    }
+
+    .thesis{
+        padding-bottom: 50px;
+        margin-top: -9%;
+        margin-left: 11%;
+        color: aliceblue;
+        display: block;
+        font-size: 15px;
+    }
+
+    .thesis1{
+        padding-bottom: 17px;
+        margin-top: -42%;
+        color: aliceblue;
+        display: block;
+        font-size: 19px;
+        margin-left: 0%; 
+    }
+
+    .thesis2{
+        padding-bottom: 50px;
+        margin-top: -9%;
+        margin-left: 11%;
+        color: aliceblue;
+        
+        font-size: 15px;
+    }
+    
+    
+
+}
+
